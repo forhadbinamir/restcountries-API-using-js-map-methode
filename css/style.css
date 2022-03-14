@@ -3,8 +3,14 @@
     width: 80%;
     margin: auto;
 }
+
 .countries-api h1{
     text-align: center;
+}
+.country{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 .country-box{
     border: 1px solid;
@@ -13,9 +19,7 @@
     background-color: aquamarine;
     /* margin: 5px; */
 }
-
-.country{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.country-box img{
+    width:50%;
 }
+
